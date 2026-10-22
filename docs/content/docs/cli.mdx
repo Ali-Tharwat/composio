@@ -421,9 +421,12 @@ composio dev triggers list gmail
 composio dev triggers info GMAIL_NEW_GMAIL_MESSAGE
 composio dev triggers status
 composio dev triggers create GMAIL_NEW_GMAIL_MESSAGE
+composio dev triggers create GMAIL_NEW_GMAIL_MESSAGE --user-id user_123
 composio dev triggers enable ti_xxx
 composio dev listen --trigger-slug GMAIL_NEW_GMAIL_MESSAGE --json --max-events 5
 ```
+
+`composio dev triggers create` creates the trigger as the user you pass with `--user-id`. Without it, the CLI uses the current project's test user ID, then your global test user ID from `composio login`, and prints a warning naming the user ID it picked. On projects that require the user ID to own the connected account, pass `--user-id` explicitly.
 
 ### Generate type definitions
 
