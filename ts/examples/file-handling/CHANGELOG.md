@@ -1,5 +1,12 @@
 # file-handling-example
 
+## 0.1.12
+
+### Patch Changes
+
+- Updated dependencies [e87ed85]
+  - @composio/core@0.28.0
+
 ## 0.1.11
 
 ### Patch Changes

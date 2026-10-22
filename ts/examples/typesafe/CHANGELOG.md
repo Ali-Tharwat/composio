@@ -1,5 +1,14 @@
 # typesafe-example
 
+## 0.0.10
+
+### Patch Changes
+
+- Updated dependencies [e87ed85]
+  - @composio/core@0.28.0
+  - @composio/openai@0.13.0
+  - @composio/typesafe@0.1.1
+
 ## 0.0.9
 
 ### Patch Changes

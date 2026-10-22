@@ -1,5 +1,13 @@
 # llamaindex-example
 
+## 0.1.12
+
+### Patch Changes
+
+- Updated dependencies [e87ed85]
+  - @composio/core@0.28.0
+  - @composio/llamaindex@0.11.2
+
 ## 0.1.11
 
 ### Patch Changes

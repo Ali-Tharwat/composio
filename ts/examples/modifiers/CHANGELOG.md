@@ -1,5 +1,13 @@
 # modifiers-example
 
+## 0.1.21
+
+### Patch Changes
+
+- Updated dependencies [e87ed85]
+  - @composio/core@0.28.0
+  - @composio/vercel@0.13.0
+
 ## 0.1.20
 
 ### Patch Changes
